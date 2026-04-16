@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "Please describe the tasks you perform related to managing users, groups, or access to systems.",
+      "notes": "Look for mentions of creating users, assigning roles, or managing groups."
+    },
+    {
+      "id": "Q2",
+      "text": "Which systems, applications, or resources do you need to configure, monitor, or manage?",
+      "notes": "Helps determine scope (team vs org-wide)."
+    },
+    {
+      "id": "Q3",
+      "text": "Which types of access or permissions are you responsible for granting, approving, or reviewing?",
+      "notes": "Highlights operational/admin roles like approver or policy contributor."
+    },
+    {
+      "id": "Q4",
+      "text": "How often do you modify access rights, create users, or review logs?",
+      "notes": "Frequency can indicate tier (daily = operational/admin, rare = contributor or read-only)."
+    },
+    {
+      "id": "Q5",
+      "text": "Do you make decisions that affect security policies, compliance, or organizational access?",
+      "notes": "Signals higher-tier roles like platform_admin or policy_admin."
+    },
+    {
+      "id": "Q6",
+      "text": "How broad is your responsibility: team-level, department-level, or organization-wide?",
+      "notes": "Scope indicator for tier assignment."
+    },
+    {
+      "id": "Q7",
+      "text": "Do you create, update, or review access policies? If so, how frequently?",
+      "notes": "Helps distinguish between policy_contributor, policy_admin, or policy_reader."
+    },
+    {
+      "id": "Q8",
+      "text": "Do you monitor or analyze user activity, security logs, or access reports?",
+      "notes": "Identifies security analyst, compliance_officer, or auditor roles."
+    },
+    {
+      "id": "Q9",
+      "text": "Do you generate reports on user access, group membership, or policy usage?",
+      "notes": "Maps to report_reader or report_contributor."
+    },
+    {
+      "id": "Q10",
+      "text": "Are there any tasks not mentioned above that involve managing access, permissions, or compliance in your role?",
+      "notes": "Catch-all for anything missed, useful for AI nuance."
+    }
+  ]
+}
