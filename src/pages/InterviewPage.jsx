@@ -25,7 +25,6 @@ const InterviewPage = ({setPageName, questions, setResults}) => {
 
     const onComplete = async () => {
         setLoading(true);
-        console.log("SUBMITTING", questionAnswers);
 
         const payload = {
             user_answers : questionAnswers
@@ -33,7 +32,6 @@ const InterviewPage = ({setPageName, questions, setResults}) => {
         //send the data to the back end
         try {
             const res = await getGroups(payload);
-            console.log("GROUPS RESPONSE", res);
             setResults(res);
             setPageName("results");
         } catch(err) {

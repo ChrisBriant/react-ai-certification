@@ -8,11 +8,9 @@ import ResultsPage from './pages/ResultsPage';
 
 
 function App() {
-  //const [questionData, setQuestionData] = useState([]);
   const [pageName,setPageName] = useState("home");
   const [answeredQuestions, setAnsweredQuestions] = useState([...questionData.questions]);
   const [results,setResults] = useState(null)
-  console.log(questionData);
 
 
   return (
